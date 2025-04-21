@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #f7e04a;
+    top: 0;
+    left: 0;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    max-width: 2000px;
+    z-index: 2;
+}
+
+#header img{
+    margin-top: -10px;
+}
+
+h1, h2, input[type="submit"]{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+}
+
+#header h1{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -70px;
+}
+
+#nav-bar{
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -60px;
+}
+a{
+    font-size: 18px;
+    font-style: bold;
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
+}
+
+.hero-section{
+    margin-top: 100px;
+    width: 100%;
+    height: 1600px;
+    left: 0;
+}
+
+input[type="email"]{
+    width: 170px;
+    height: 30px;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+input[type="submit"]{
+    width: 120px;
+    height: 30px;
+    background-color: #f7e04a;
+    border: none;
+    padding: 0 12px;
+    margin-left: 570px;
+}
+
+.features{  
+    margin-top: 30px;
+    height: 425px;
+}
+
+.content{
+    text-align: center;
+    line-height: 1.6;
+    width: 330px;
+    padding: 7px 10px 7px 10px;
+    float: left;
+    border-radius: 25px;
+    box-shadow: -3px 5px 9px 8px #5e5d5d;
+}
+
+.features .content{
+    margin-top: 70px;
+    margin-left: 70px;
+    height: 300px;
+}
+
+.pricing{  
+    margin-top: 30px;
+    width: 100%;
+    height: 425px;
+    top: 0;
+    left: 0;
+}
+
+.pricing h3{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.pricing .content{
+    margin-top: 80px;
+    margin-left: 70px;
+    height: 385px;
+}
+
+.pricing input[type="submit"]{
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+.commercial{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 350px;
+    left: 0;
+    right: 0;
+}
+
+iframe{
+    margin-top: 10px;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+    #header a{
+        display: none;
+    }
+
+    input[type="email"]{
+        margin-left: 80px;
+    }
+
+    input[type="submit"]{
+        margin-left: 105px;
+    }
+
+    .hero-section{
+        padding-bottom: 200px;
+        height: 430vh;
+    }
+
+    .content{
+        box-shadow: 0 5px 9px 8px #5e5d5d;
+    }
+
+    .features .content, .pricing .content{
+        margin-left: 10px;
+    }
+
+    .commercial{
+        padding-top: 50px;
+    }
+}
