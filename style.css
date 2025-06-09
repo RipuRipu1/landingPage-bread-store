@@ -95,7 +95,7 @@ input[type="submit"]{
 
 .features{
     margin-top: 45px;
-    height: 425px;
+    margin-bottom: 60px;
 }
 
 .features .content{
@@ -109,7 +109,7 @@ input[type="submit"]{
 }
 
 .content{
-    height: 300px;
+    min-height: 285x;
     width: 20rem;
     line-height: 1.6;
     text-align: center;
@@ -133,8 +133,8 @@ iframe{
 }
 
 .products{
-    position: relative;
-    top: 375px;
+    margin-top: 75px;
+    padding-bottom: 25px;
 }
 
 .products h3{
@@ -156,7 +156,7 @@ iframe{
     html{
         font-size: 90%;
     }
-    
+
     #header a{
         display: none;
     }
