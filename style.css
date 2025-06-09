@@ -60,10 +60,10 @@ body{
 }
 
 .hero-section{
-    margin-top: 100px;
+    position: relative;
+    top: 100px;
     width: 100%;
-    height: 1600px;
-    left: 0;
+    height: 100vh;
 }
 
 .hero-section h1, h2, input[type="submit"]{
@@ -71,11 +71,18 @@ body{
     text-align: center;
 }
 
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
 input[type="email"]{
-    width: 170px;
+    max-width: 170px;
     height: 30px;
-    margin-left: 550px;
-    margin-top: 20px;
+    margin-top: 15px;
+    border: 1px solid black;
 }
 
 input[type="submit"]{
@@ -84,7 +91,6 @@ input[type="submit"]{
     background-color: #f7e04a;
     border: none;
     padding: 0 12px;
-    margin-left: 570px;
 }
 
 .features{  
@@ -186,13 +192,6 @@ iframe{
 
     .nav-toggle:checked ~ .nav-bar{
         right: 0;
-    }
-    input[type="email"]{
-        margin-left: 80px;
-    }
-
-    input[type="submit"]{
-        margin-left: 105px;
     }
 
     .hero-section{
